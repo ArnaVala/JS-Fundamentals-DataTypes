@@ -1,0 +1,78 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Mono', monospace;     font-size: 16px;
+  background-color: hsl(216, 32%, 82%);
+  color: black;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 32px;
+  padding-bottom: 8px;
+}
+
+h3 {
+  padding-bottom: 16px;
+}
+
+p {
+  color: black;
+  padding-bottom: 16px;
+}
+
+button {
+  background-color: black;
+  color: hsl(216, 32%, 82%);
+  padding: 16px 32px;
+  border: 2px solid  black;
+  margin: 16px 0;
+}
+button:hover {
+  background-color:  hsl(216, 32%, 82%);
+  color:  black;
+}
+
+.site-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+section {
+  padding: 32px;
+  border: 2px solid;
+  border-color: black;
+  color: black;
+  margin-bottom: 32px;
+}
+
+
+.text-big {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 8px;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header>
+      <h1 id='title'></h1>
+      <p class='text-big'>Fundamentals & Data Types</p>
+    </header>
+    <main>
+      <section>
+        <h3>Links to project</h3>
+         <p><a href='https://replit.com/@ArnaVala/JS-Fundamentals-DataTypes#script.js'>The Repl.it</a> is recommended for viewing the script.js and console.log together.</p>
+        <p><a href=''>The Github repo</a> includes all the files, script.js has all comments and demonstrations for the
+          project.</p>
+        <p><a href=''>Live Site</a> shows some DOM manipulation and interaction.</p>
+      </section>
+      <section>
+        <h3>DOM manipulations</h3>
+        <button onclick='changeTitle()'>Click me and change the heading!</button>
+        <button onclick='alertButton()'>Click me and see what pops up!</button>
+      </section>
+      <section>
+        <h3>Some output examples</h3>
+        <span>Display the current time with: new Date();</span>
+        <p id='date'></p>
+        <span>Display the name of the weekday with an array</span>
+        <p id='day'></p>
+        <span>Change the date to my bDay with setFullYear()</span>
+        <p id='b-day'></p>
+        <span>Use if else statement to display a welcome greeting depending on the current time of day</span>
+        <p id='welcome'></p>
+
+      </section>
+    </main>
+  </div>
+  <script src='script.js'></script>
+</body>
+</html>
